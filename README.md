@@ -24,3 +24,7 @@ OBS: Não olhe o arquivo antes de tentar fazer sozinho, por favor.
 
 ## Dúvidas?
 Nos envie um e-mail para suporte@b7web.com.br que te ajudamos com prazer.
+
+### Print da resolução do exercicio 
+
+<img src="./assets/HomeApp.png"/>

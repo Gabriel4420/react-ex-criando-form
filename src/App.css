@@ -1,10 +1,55 @@
-.App {
+.name--input,
+.undername--input,
+.age--input {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+}
+
+
+
+
+.resp {
+  width: 100%;
+  color: white;
+  line-height: 50px;
+  font-size: 30px;
+}
+
+
+.genericinput {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(34, 96, 197);
+  width: 30%;
+  color: rgb(34, 96, 197);
+  outline: 0;
+  padding-left: 10px;
+  font-size: 18px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 200;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +77,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
